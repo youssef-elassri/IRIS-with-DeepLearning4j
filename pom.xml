@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>deepLearning-app</groupId>
+	<artifactId>iris-app</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>iris-app</name>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+		<!-- Cœur de DL4J -->
+		<dependency>
+			<groupId>org.deeplearning4j</groupId>
+			<artifactId>deeplearning4j-core</artifactId>
+			<version>1.0.0-beta3</version>
+		</dependency>
+		<!-- User Interface de DL4J -->
+		<dependency>
+			<groupId>org.deeplearning4j</groupId>
+			<artifactId>deeplearning4j-ui_2.10</artifactId>
+			<version>1.0.0-beta3</version>
+		</dependency>
+		<!-- ND4J -->
+		<dependency>
+			<groupId>org.nd4j</groupId>
+			<artifactId>nd4j-native-platform</artifactId>
+			<version>1.0.0-beta3</version>
+		</dependency>
+		<!-- ND4J for CUDA -->
+		<dependency>
+			<groupId>org.nd4j</groupId>
+			<artifactId>nd4j-cuda-9.2-platform</artifactId>
+			<version>1.0.0-beta3</version>
+		</dependency>
+		<!-- SLF4J pour journalisation -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.jodah/typetools -->
+		<dependency>
+			<groupId>net.jodah</groupId>
+			<artifactId>typetools</artifactId>
+			<version>0.6.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.typesafe.play/play-test -->
+		
+
+	</dependencies>
+
+</project>
